@@ -1,38 +1,15 @@
 # Homework
 
 ## 简介
-这是计算机基础C课程的turtle画图作业，绘制的是递归雪花。新手上路，请多指教。
+我的作业内容包括三部分，第一个是最早绘制的雪花图案，后来我又尝试了花朵与分形树。目前不知为何树的图案暂时无法上传，等过段时间重试。
 
-## 代码
+## 雪花
+![iamge](https://github.com/SweetCollection/Homework/blob/master/snow%20picture.png)
 
-```
-import turtle as t
+## 花朵
+这个花朵其实是我最早做的，但我有一点不清楚这样能否算递归，还是只能把它看作循环结构？
+![image](https://github.com/SweetCollection/Homework/blob/master/fractal%20flower.png)
 
-def snow(length,n):
-    if n == 0:
-        t.fd(length)
-    else:
-        for i in [0,60,-120,60]:
-            t.left(i)
-            snow(length/3, n-1)
-
-def main():
-    length = 500
-    times = 4
-    angle = 120
-    t.pensize(3)
-    t.color("blue")
-    t.penup()
-    t.goto(-150,150)   
-    t.pendown()
-
-    snow(length,times)
-    t.right(angle)
-    snow(length,times)
-    t.right(angle)
-    snow(length,times)
-    t.right(angle)
-    t.hideturtle()
-
-main()
-```
+## 树
+画了一个有叶子和花的树~
+![image]()
