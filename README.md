@@ -1,7 +1,7 @@
 # Homework
 
 ## 简介
-我的作业内容包括三部分，第一个是最早绘制的雪花图案，后来我又尝试了花朵与分形树。目前不知为何树的图案暂时无法上传，等过段时间重试。
+我的作业内容包括三部分，分别是雪花、花朵与分形树。目前不知为何树的图案暂时无法上传，等过段时间重试。
 
 ## 雪花
 ![iamge](https://github.com/SweetCollection/Homework/blob/master/snow%20picture.png)
